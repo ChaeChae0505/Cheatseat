@@ -9,6 +9,12 @@
 - WBF
 - 일단 여기 있음 [here](https://www.notion.so/ch05ch/e68d8d8a62824626bf19a587e91c3d34)
 
+# ROS
+- rospack find [package name]
+- rospack list : list 볼 수 있음
+- roscd [pack name] : 이동 가능
+- rospack profile : ros 연결 폴더 확인
+
 # C++
 - Interative C++ with Cling[변수를 바로 바로,,,](https://iosroid.tistory.com/m/113)
 
