@@ -21,5 +21,5 @@
 # ETC
 - Licens 추가 : create file License라고 치면 choose a license template라는 버튼이 생긴다! 그걸 클릭하자
 
-
-# [윤택한 대학원 생활을 위한 Information! 정보를 검색할 수 있는 사이트들]()
+---
+### [윤택한 대학원 생활을 위한 Information! 정보를 검색할 수 있는 사이트들]()
