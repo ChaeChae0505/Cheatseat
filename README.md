@@ -29,3 +29,4 @@
 
 ## ETC
 - Licens 추가 : create file License라고 치면 choose a license template라는 버튼이 생긴다! 그걸 클릭하자
+- Ubuntu 무료 경량 모니터링 : [conky](https://github.com/brndnmtthws/conky), [Install](https://ubunlog.com/ko/conky-monitor-sistema-liviano-para-x/)
