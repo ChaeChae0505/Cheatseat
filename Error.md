@@ -25,3 +25,4 @@
 - 아래 것들은 vcpkg folder 안에 넣어서 빌드하기!
 - glew : https://github.com/nigels-com/glew/releases/
 - glfw : https://www.glfw.org/download.html
+- 압축만 풀어둠
