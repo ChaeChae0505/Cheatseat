@@ -30,3 +30,19 @@
 ## ETC
 - Licens 추가 : create file License라고 치면 choose a license template라는 버튼이 생긴다! 그걸 클릭하자
 - Ubuntu 무료 경량 모니터링 : [conky](https://github.com/brndnmtthws/conky), [Install](https://ubunlog.com/ko/conky-monitor-sistema-liviano-para-x/)
+
+- python version
+
+- [https://codechacha.com/ko/change-python-version/](https://codechacha.com/ko/change-python-version/)
+
+- [https://velog.io/@markyang92/python-환경설정-라이브러리-관리](https://velog.io/@markyang92/python-%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EA%B4%80%EB%A6%AC)
+
+- rospack update
+
+- rospack profile && rosstack profile
+
+- catkin_ws 는 하나 밖에 안되나?? 그 소스 파일을 여러개 못 읽나,,,?
+
+- ROS with python modul
+
+- [https://roboticsbackend.com/ros-import-python-module-from-another-package/](https://roboticsbackend.com/ros-import-python-module-from-another-package/)
