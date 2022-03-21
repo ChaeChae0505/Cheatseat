@@ -12,6 +12,8 @@
 2. [발표 준비, 연구시 check list](Checking.md)
 3. [GIT version control, Docker](GitandDocekr.md)
 ---
+## Python
+- 코드 정적 분석 툴 [link](https://itholic.github.io/python-static-analysis/)
 ## Keywords
 - Top down 방식으로 공부 중인,,, 나에게 주는 keywords 정리공간 [Issues](https://github.com/ChaeChae0505/Cheatseat/issues)
 - PAC
