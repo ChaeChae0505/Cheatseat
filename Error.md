@@ -34,13 +34,13 @@
 - wget 같은 경우 --no-check-certificates 로 해결가능하지만 근본적인 문제를 해결할 수 없다
 - 보통 오래된 주소를 사용하거나 , proxy 설정 인증서 오류 같은 문제로 발생한다
 - 나는 해결 방법을 실행해보고 껏다 켜보지 못해서 어떤 것이 잘 되고 안 되는지 잘 모르겠다.... 순서대로 하고 꼭 재부팅을 해보자
-1)[https://gitlab.com/voxl-public/system-image-build/poky/-/issues/3](https://gitlab.com/voxl-public/system-image-build/poky/-/issues/3)
+1. [https://gitlab.com/voxl-public/system-image-build/poky/-/issues/3](https://gitlab.com/voxl-public/system-image-build/poky/-/issues/3)
 
-2) export SSL_CERT_FILE=/usr/lib/ssl/certs/ca-certificates.crt
+2. export SSL_CERT_FILE=/usr/lib/ssl/certs/ca-certificates.crt
 
-[https://github.com/ros-infrastructure/rosinstall_generator/issues/40](https://github.com/ros-infrastructure/rosinstall_generator/issues/40)
+- [https://github.com/ros-infrastructure/rosinstall_generator/issues/40](https://github.com/ros-infrastructure/rosinstall_generator/issues/40)
 
-3) [https://askubuntu.com/questions/73287/how-do-i-install-a-root-certificate](https://askubuntu.com/questions/73287/how-do-i-install-a-root-certificate)
+3. [https://askubuntu.com/questions/73287/how-do-i-install-a-root-certificate](https://askubuntu.com/questions/73287/how-do-i-install-a-root-certificate)
 
-[https://askubuntu.com/questions/73287/how-do-i-install-a-root-certificate/1090617#1090617](https://askubuntu.com/questions/73287/how-do-i-install-a-root-certificate/1090617#1090617)
+- [https://askubuntu.com/questions/73287/how-do-i-install-a-root-certificate/1090617#1090617](https://askubuntu.com/questions/73287/how-do-i-install-a-root-certificate/1090617#1090617)
 
