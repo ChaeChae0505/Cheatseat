@@ -44,3 +44,8 @@
 
 - [https://askubuntu.com/questions/73287/how-do-i-install-a-root-certificate/1090617#1090617](https://askubuntu.com/questions/73287/how-do-i-install-a-root-certificate/1090617#1090617)
 
+
+
+- Error) qtplugin을 찾을 수 없다는 에러가 떳다
+- apt install libxcb-xinerama0 을 하니 이미 설치 되있다고 했다
+- 그래서 coppeliasim으로 qt plugin path 지정된 것을 해제했더니 가능했다
