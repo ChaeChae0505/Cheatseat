@@ -123,6 +123,17 @@ sudo docker commit <container ID> <New image save name>
 # 이미지 실행가능해짐
 ```
 
+## tmux
+```
+apt-get install tmux
+tmux
+
+* 모든 명령어는 ctrl + b 와 함께 실행
+* ctrl + D는 창을 빠져나올 때
+
+
+```
+
 
 
 # Docker error
@@ -133,3 +144,21 @@ sudo docker commit <container ID> <New image save name>
 
 # 자주 참고하는 docker repo
 - melodic [openvins](https://hub.docker.com/r/celinachild/openvslam)
+```
+$ docker pull celinachild/openvslam:latest
+
+$ docker run --gpus all -it --ipc=host --net=host --privileged -e DISPLAY=unix$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix:rw -e NVIDIA_DRIVER_CAPABILITIES=all celinachild/openvslam 
+
+
+# for mapping
+$ ./run_video_slam -v ./orb_vocab/orb_vocab.dbow2 -m ./aist_living_lab_1/video.mp4 -c ./aist_living_lab_1/config.yaml --no-sleep --map-db map.msg
+
+# for localization
+$ ./run_video_localization -v ./orb_vocab/orb_vocab.dbow2 -m ./aist_living_lab_2/video.mp4 -c ./aist_living_lab_2/config.yaml --no-sleep --map-db map.msg
+```
+
+
+## ERROR
+- 내부에서 apt repo로 다운 하려고 하는데 404 error :: apt-get update
+
+
