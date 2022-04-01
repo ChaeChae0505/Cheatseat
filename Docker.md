@@ -1,5 +1,15 @@
 ## docker install
 - [docker documents](https://docs.docker.com/engine/install/ubuntu/)
+- [NVIDIA docker](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker)
+
+```
+안깔리면
+$ curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | \
+  sudo tee /etc/apt/sources.list.d/nvidia-docker.list # 추가
+  
+# https://github.com/NVIDIA/nvidia-docker/issues/716
+```
+
 
 ## docker 명령어
 - docker using without sudo 
@@ -58,4 +68,4 @@ docker run hello-world
 
 
 # 자주 참고하는 docker repo
-- melodic [openvins](https://hub.docker.com/layers/openvins/celinachild/openvins/latest/images/sha256-c60c03519223864f25d3f0e05bc2f78d26e60f99cc9450e62ad0e727f69996e4?context=explore)
+- melodic [openvins](https://hub.docker.com/r/celinachild/openvslam)
