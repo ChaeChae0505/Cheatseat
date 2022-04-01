@@ -193,8 +193,4 @@ echo "sb='source ~/.bashrc'" >> ~/.bashrc
 
 
 ## Docker script 실행
-```
-#!/bin/bash
-#set -x
-# sudo usermod -aG docker $USER
-```
+- [check](https://swiftcam.tistory.com/537)
