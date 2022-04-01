@@ -1,3 +1,29 @@
+## docker 명령어
+- docker using without sudo 
+```
+sudo usermod -aG docker $USER
+```
+
+```
+도커그룹생성
+sudo groupadd docker
+
+도커그룹에 유저추가
+sudo usermod -aG docker ${USER}
+or
+sudo gpasswd -a $USER docker
+
+도커 재시작
+sudo service docker restart
+
+현재 사용자 로그아웃 및 재로그인
+sudo su - // 루트사용자로 변경
+su - ubuntu // 사용자로 변경
+
+테스트
+docker run hello-world
+```
+
 ## 컨테이너 관련
 - 동작중인 컨테이너 확인
 ```docker ps```
