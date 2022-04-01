@@ -191,3 +191,10 @@ echo "sb='source ~/.bashrc'" >> ~/.bashrc
 - 내부에서 apt repo로 다운 하려고 하는데 404 error :: apt-get update
 
 
+
+## Docker script 실행
+```
+#!/bin/bash
+#set -x
+# sudo usermod -aG docker $USER
+```
