@@ -12,7 +12,7 @@
 
 
 # Pytorch
-### Q) IndexError: invalid index of a 0-dim tensor. Use `tensor.item()` in Python or `tensor.item<T>()` in C++ to convert a 0-dim tensor to a number
+#### Q) IndexError: invalid index of a 0-dim tensor. Use `tensor.item()` in Python or `tensor.item<T>()` in C++ to convert a 0-dim tensor to a number
 - A) pytorch 0.5이하 에서 작성 되었던 문서를 pytorch 0.5이상으로 가져올 때 발생하는 문제 변수.data[0] --> 변수.data[]로 바꿔주면 해결가능  
   
 - Error는 아니지만 UserWarning: PyTorch is not compiled with NCCL support 관련 이슈 [link](https://aigong.tistory.com/188) 이해 못함
@@ -20,7 +20,7 @@
 
 
 # CPP + windows
-### opengl, glew, glfw3
+#### opengl, glew, glfw3
 - vcpkg install opengl:64-windows 로 다운 받았고
 - 아래 것들은 vcpkg folder 안에 넣어서 빌드하기!
 - glew : https://github.com/nigels-com/glew/releases/
@@ -29,7 +29,7 @@
 
 
 # Ubuntu
-- 인증서 관련 Error ( ssl, certificates )
+#### 인증서 관련 Error ( ssl, certificates )
 - ssl error
 - wget 같은 경우 --no-check-certificates 로 해결가능하지만 근본적인 문제를 해결할 수 없다
 - 보통 오래된 주소를 사용하거나 , proxy 설정 인증서 오류 같은 문제로 발생한다
@@ -45,7 +45,29 @@
 - [https://askubuntu.com/questions/73287/how-do-i-install-a-root-certificate/1090617#1090617](https://askubuntu.com/questions/73287/how-do-i-install-a-root-certificate/1090617#1090617)
 
 
-
-- Error) qtplugin을 찾을 수 없다는 에러가 떳다
+#### Error) qtplugin을 찾을 수 없다는 에러가 떳다
 - apt install libxcb-xinerama0 을 하니 이미 설치 되있다고 했다
 - 그래서 coppeliasim으로 qt plugin path 지정된 것을 해제했더니 가능했다
+
+
+# ROS
+#### E) Gazebo [err] [REST.cc:205] Error in REST request error
+- home에서 .ignition/fuel/config.yaml을 켜준다
+- $ gedit .ignition/fuel/config.yaml
+```
+---
+# The list of servers.
+servers:
+  -
+    name: osrf
+    #url: https://api.ignitionfuel.org >>를 아래 url로 변경해줌
+    url: https://api.ignitionrobotics.org
+
+  # -
+    # name: another_server
+    # url: https://myserver
+
+# Where are the assets stored in disk.
+# cache:
+#   path: /tmp/ignition/fuel
+```
