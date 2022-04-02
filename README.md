@@ -12,6 +12,10 @@
 2. [발표 준비, 연구시 check list](Checking.md)
 3. [GIT version control, Docker](GitandDocekr.md)
 ---
+## Ubuntu setup
+- [sh 파일로 한번에 설치하자! docker,ros](https://github.com/ChaeChae0505/ubuntu-setup.git)
+
+
 ## Python
 - 코드 정적 분석 툴 [link](https://itholic.github.io/python-static-analysis/)
 ## Keywords
