@@ -199,7 +199,13 @@ echo "sb='source ~/.bashrc'" >> ~/.bashrc
 ## Docker 상태 update_22.04.06
 ```
 # 다그냥 기본 상태 ! 
-osrf/ros
 celinachild/openvslam
 nvidia/cuda
+
+
+docker run --gpus all -it --ipc=host --net=host --privileged -e DISPLAY=unix$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix:rw -e NVIDIA_DRIVER_CAPABILITIES=all tiryoh/ros-melodic-desktop
 ```
+
+## ETC
+- melodic opencv4 build
+- [참고](https://jjeongil.tistory.com/1308)
