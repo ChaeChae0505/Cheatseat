@@ -1,13 +1,13 @@
 # Python
 
-### Q) [Python:error] ValueError: unsupported pickle protocol: 5
+#### Q) [Python:error] ValueError: unsupported pickle protocol: 5
 - A) version error 다 python 3.7부터 pickle 5 지원
 
 
 
 
 
-### Tip
+#### Tip
 - list는 find가 되지 
 
 
@@ -71,3 +71,8 @@ servers:
 # cache:
 #   path: /tmp/ignition/fuel
 ```
+#### E) conda환경에서 build하려고 할때! catkin_pkg modulenotfound err
+- conda install -c auto catkin_pkg
+- pip install catkin_pkg
+
+
