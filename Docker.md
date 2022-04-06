@@ -194,3 +194,12 @@ echo "sb='source ~/.bashrc'" >> ~/.bashrc
 
 ## Docker script 실행
 - [check](https://swiftcam.tistory.com/537)
+
+
+## Docker 상태 update_22.04.06
+```
+# 다그냥 기본 상태 ! 
+osrf/ros
+celinachild/openvslam
+nvidia/cuda
+```
