@@ -17,6 +17,14 @@
 - [sh 파일로 한번에 설치하자! docker,ros](https://github.com/ChaeChae0505/ubuntu-setup.git)
 
 
+## Ubuntu 명령어
+- version check
+```
+pkg-config —modversion eigen3
+pkg-config —modversion opencv
+```
+
+
 ## Python
 - 코드 정적 분석 툴 [link](https://itholic.github.io/python-static-analysis/)
 ## Keywords
