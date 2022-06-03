@@ -1,16 +1,17 @@
 # Cheatseat
 대학원 생활 중 배워가는 작고 소중한 나의 팁(ubuntu, bash , ros 명령어,,,,docker love)
-- 삽질을 해야하지만 정리는 할 수 있잖아 [Error](Error.md)
+
 - 코드 정리하기 좋은 ! mindmap flowchart 등 그리기 좋은 사이트[whimsical](https://whimsical.com/)
 - 그 밖에 figma나 invision 같은 것을 활용하면 그림 그리는 것에 좋을 것 같다
 
 ---
+0. 삽질을 해야하지만 정리는 할 수 있잖아 [Error](Error.md)
 1. [윤택한 대학원 생활을 위한 Information! 정보를 검색할 수 있는 사이트들](Information.md)
 - 과제 계획서 작성을 위한 참고 사이트
 - 논문 Impactor fact 검색 사이트 
-
 2. [발표 준비, 연구시 check list](Checking.md)
 3. [GIT version control, Docker](GitandDocekr.md)
+4. [문법,, library.... etc...](DOC.md)
 
 ---
 ## Ubuntu setup
