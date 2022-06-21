@@ -44,7 +44,18 @@
 
 - [https://askubuntu.com/questions/73287/how-do-i-install-a-root-certificate/1090617#1090617](https://askubuntu.com/questions/73287/how-do-i-install-a-root-certificate/1090617#1090617)
 
+#### library를 못 찾아!
+- rviz: error while loading shared libraries: libconsole_bridge.so.1.0: cannot open shared object file: No such file or directory
+1. 위치를 찾는다
+```shell
+$ ldconfig -p | grep libconsol* 
+$ dpkg -L openjdk-8-jre
+```
 
+2. LD_LIBRARY_PATH로 연결 (bashrc)
+```shell
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-11.6/lib64:/opt/ros/noetic:/usr/lib/x86_64-linux-gnu
+```
 #### Error) qtplugin을 찾을 수 없다는 에러가 떳다
 - apt install libxcb-xinerama0 을 하니 이미 설치 되있다고 했다
 - 그래서 coppeliasim으로 qt plugin path 지정된 것을 해제했더니 가능했다
