@@ -87,3 +87,37 @@ servers:
 - pip install catkin_pkg
 
 
+
+## build 시 cuda error
+`-O3 -gencode arch=compute_62,code=sm_62`  이런식으로 cmake list에 추가 하면 된다는데? [https://en.wikipedia.org/wiki/CUDA#Supported_GPUs](https://en.wikipedia.org/wiki/CUDA#Supported_GPUs)
+
+- cuda cmake 연결
+    
+    ```python
+    # Find CUDA
+    find_package(CUDA QUIET)
+    if (CUDA_FOUND)
+      find_package(CUDA REQUIRED)
+      message(STATUS "CUDA Version: ${CUDA_VERSION_STRINGS}")
+      message(STATUS "CUDA Libararies: ${CUDA_LIBRARIES}")
+      set(
+        CUDA_NVCC_FLAGS
+        ${CUDA_NVCC_FLAGS};
+        -O3
+        -gencode arch=compute_30,code=sm_30
+        -gencode arch=compute_35,code=sm_35
+        -gencode arch=compute_50,code=[sm_50,compute_50]
+        -gencode arch=compute_52,code=[sm_52,compute_52]
+        -gencode arch=compute_61,code=sm_61
+        -gencode arch=compute_62,code=sm_62
+      )
+      add_definitions(-DGPU)
+    else()
+      list(APPEND LIBRARIES "m")
+    endif()
+    ```
+    
+
+[https://arnon.dk/matching-sm-architectures-arch-and-gencode-for-various-nvidia-cards/](https://arnon.dk/matching-sm-architectures-arch-and-gencode-for-various-nvidia-cards/)
+
+30어쩌고 지원 안된다해서 그부분 지워 줌 cuda nvcc flage에서
