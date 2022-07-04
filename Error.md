@@ -87,7 +87,7 @@ servers:
 - pip install catkin_pkg
 
 
-
+# CMAKE error
 ## build 시 cuda error
 `-O3 -gencode arch=compute_62,code=sm_62`  이런식으로 cmake list에 추가 하면 된다는데? [https://en.wikipedia.org/wiki/CUDA#Supported_GPUs](https://en.wikipedia.org/wiki/CUDA#Supported_GPUs)
 
