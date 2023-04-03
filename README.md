@@ -1,5 +1,5 @@
 # Cheatseat
-대학원 생활 중 배워가는 작고 소중한 나의 팁(ubuntu, bash , ros 명령어,,,,docker love)
+고 소중한 나의 팁(ubuntu, bash , ros 명령어,,,,docker love)
 
 - 코드 정리하기 좋은 ! mindmap flowchart 등 그리기 좋은 사이트[whimsical](https://whimsical.com/)
 - 그 밖에 figma나 invision 같은 것을 활용하면 그림 그리는 것에 좋을 것 같다
